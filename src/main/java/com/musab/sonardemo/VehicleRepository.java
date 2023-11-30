@@ -1,8 +1,11 @@
 package com.musab.sonardemo;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Arrays;
 import java.util.List;
 
+@Component
 public class VehicleRepository {
 
 	List<Vehicle> vehicles = Arrays.asList(
